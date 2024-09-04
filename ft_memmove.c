@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/12 14:19:53 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/08/22 15:34:24 by fschnorr         ###   ########.fr       */
+/*   Updated: 2024/09/04 23:48:39 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ void	*ft_memmove(void *dest, const void *src, t_size n)
 	unsigned char	*tmp_dest_ptr;
 	unsigned char	*tmp_src_ptr;
 
-	if (dest == (void *)0 || src == (void *)0)
-		return (dest);
+	if (dest == NULL && src == NULL)
+		return (NULL);
 	tmp_dest_ptr = (unsigned char *) dest;
 	tmp_src_ptr = (unsigned char *) src;
 	if (tmp_dest_ptr > tmp_src_ptr)
