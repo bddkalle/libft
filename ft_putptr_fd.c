@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 15:43:41 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/09/09 12:14:04 by fschnorr         ###   ########.fr       */
+/*   Updated: 2024/09/09 15:35:26 by fschnorr         ###   ########.de       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 static int	helperft_putptr(unsigned long long num, int fd)
 {
 	int	count;
-	
+
 	count = 0;
 	if (num >= 16)
 	{
