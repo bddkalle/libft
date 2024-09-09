@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/04 14:16:23 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/08/29 13:19:30 by fschnorr         ###   ########.fr       */
+/*   Updated: 2024/09/09 11:54:18 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,13 +45,14 @@ char	**ft_split(char const *s, char c);
 char	*ft_itoa(int n);
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char));
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
-void	ft_putchar_fd(char c, int fd);
-void	ft_putstr_fd(char *s, int fd);
+int		ft_putchar_fd(char c, int fd);
+int		ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
-void	ft_putnbr_fd(int n, int fd);
+int		ft_putnbr_fd(int n, int fd);
 int		ft_strcmp(const char *s1, const char *s2);
 int		ft_c_isin_str(char c, char *str);
 int		ft_str_isin_strs(char *needle, char **needle_box);
 int		ft_int_len(long nbr);
+int		ft_putptr_fd(void *ptr, int fd);
 
 #endif
