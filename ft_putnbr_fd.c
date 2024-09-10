@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/14 14:09:55 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/09/09 15:30:47 by fschnorr         ###   ########.fr       */
+/*   Updated: 2024/09/10 12:37:49 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 
 int	ft_putnbr_fd(int n, int fd)
 {
-	char	c;
 	int		count;
 
 	count = 0;
