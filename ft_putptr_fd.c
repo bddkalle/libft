@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putptr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
+/*   By: fschnorr <fschnorr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 15:43:41 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/09/09 15:35:26 by fschnorr         ###   ########.de       */
+/*   Updated: 2024/09/27 09:58:51 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,10 +38,12 @@ int	ft_putptr_fd(void *ptr, int fd)
 	int	print_len;
 
 	print_len = 0;
-	print_len += write(fd, "0x", 2);
 	if (!ptr)
-		print_len += write(fd, "0", 1);
+		print_len += write(fd, "(nil)", 5);
 	else
+	{
+		print_len += write(fd, "0x", 2);
 		print_len += helperft_putptr((unsigned long long)ptr, fd);
+	}
 	return (print_len);
 }
