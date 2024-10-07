@@ -6,7 +6,7 @@
 #    By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/05 13:30:00 by fschnorr          #+#    #+#              #
-#    Updated: 2024/09/09 11:55:04 by fschnorr         ###   ########.fr        #
+#    Updated: 2024/10/02 12:27:15 by fschnorr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,15 +17,19 @@ OBJS := $(SRC:%.c=%.o)
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	ar rcs $(NAME) $(OBJS)
+	@ar rcs $(NAME) $(OBJS)
+	@echo "ran ar."
 
 %.o: %.c
-	cc -Wextra -Wall -Werror -c $< -o $@
+	@cc -Wextra -Wall -Werror -c $< -o $@
+	@echo "ran cc."
 
 clean:
-	rm -f $(OBJS)
+	@rm -f $(OBJS),
+	@echo "ran clean."
 
 fclean: clean
-	rm -f $(NAME)
+	@rm -f $(NAME)
+	@echo "ran fclean."
 
 re: fclean all
