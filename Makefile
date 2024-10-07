@@ -6,7 +6,7 @@
 #    By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/05 13:30:00 by fschnorr          #+#    #+#              #
-#    Updated: 2024/10/02 12:27:15 by fschnorr         ###   ########.fr        #
+#    Updated: 2024/10/07 12:29:04 by fschnorr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ $(NAME): $(OBJS)
 	@echo "ran cc."
 
 clean:
-	@rm -f $(OBJS),
+	@rm -f $(OBJS)
 	@echo "ran clean."
 
 fclean: clean
