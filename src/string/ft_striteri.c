@@ -6,11 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/14 12:21:00 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/08/14 13:55:19 by fschnorr         ###   ########.fr       */
+/*   Updated: 2024/11/21 16:27:36 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 #include <stdio.h>
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))

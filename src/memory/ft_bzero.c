@@ -6,11 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/08 15:58:02 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/07/10 15:12:50 by fschnorr         ###   ########.de       */
+/*   Updated: 2024/11/21 16:29:50 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 /*#include <stdio.h>
 #include <string.h>*/
 

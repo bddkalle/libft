@@ -6,11 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/08 11:59:20 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 14:48:53 by fschnorr         ###   ########.fr       */
+/*   Updated: 2024/11/21 16:28:42 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 
 t_size	ft_linelen(const char *s)
 {
