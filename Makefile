@@ -6,7 +6,7 @@
 #    By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/05 13:30:00 by fschnorr          #+#    #+#              #
-#    Updated: 2024/11/21 11:38:27 by fschnorr         ###   ########.fr        #
+#    Updated: 2024/11/21 14:49:49 by fschnorr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -62,6 +62,7 @@ SRC =	$(addprefix src/ctype/, $(addsuffix .c,	\
 											))	\
 		$(addprefix src/utils/, $(addsuffix .c, \
 								ft_c_isin_str	\
+								ft_linelen		\
 											))
 OBJS := $(SRC:%.c=%.o)
 

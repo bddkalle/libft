@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/04 14:16:23 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/10/15 12:10:12 by fschnorr         ###   ########.fr       */
+/*   Updated: 2024/11/21 14:49:13 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,5 +55,7 @@ int		ft_str_isin_strs(char *needle, char **needle_box);
 int		ft_int_len(long nbr);
 int		ft_putptr_fd(void *ptr, int fd);
 long	ft_atol(const char *str);
+t_size	ft_linelen(const char *s);
+
 
 #endif
