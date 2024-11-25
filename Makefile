@@ -6,12 +6,13 @@
 #    By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/05 13:30:00 by fschnorr          #+#    #+#              #
-#    Updated: 2024/11/21 14:49:49 by fschnorr         ###   ########.fr        #
+#    Updated: 2024/11/25 16:03:43 by fschnorr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
-SRC =	$(addprefix src/ctype/, $(addsuffix .c,	\
+SRC =	$(addsuffix .c,							\
+		$(addprefix src/ctype/, 				\
 		                		ft_isalnum   	\
                             	ft_isalpha   	\
 								ft_isascii   	\
@@ -19,30 +20,34 @@ SRC =	$(addprefix src/ctype/, $(addsuffix .c,	\
 								ft_isprint   	\
 								ft_tolower   	\
 								ft_toupper   	\
-                                        	))	\
-    	$(addprefix src/memory/, $(addsuffix .c,\
+        ))										\
+    	$(addsuffix .c,							\
+		$(addprefix src/memory/, 				\
 								ft_bzero    	\
 							 	ft_memchr   	\
 							 	ft_memcmp   	\
 								ft_memcpy   	\
 							 	ft_memmove  	\
 							 	ft_memset   	\
-		                                    ))	\
-		$(addprefix src/stdio/, $(addsuffix .c,	\
+		))										\
+		$(addsuffix .c,							\
+		$(addprefix src/stdio/, 				\
 								ft_putchar_fd	\
 								ft_putendl_fd	\
 								ft_putnbr_fd	\
 								ft_putptr_fd	\
 								ft_putstr_fd	\
-											))	\
-		$(addprefix src/stdlib/, $(addsuffix .c,\
+		))										\
+		$(addsuffix .c,							\
+		$(addprefix src/stdlib/, 				\
 								ft_atoi			\
 								ft_atol			\
 								ft_calloc		\
 								ft_intlen		\
 								ft_itoa			\
-											))	\
-		$(addprefix src/string/, $(addsuffix .c,\
+		))										\
+		$(addsuffix .c,							\
+		$(addprefix src/string/, 				\
 								ft_split		\
 								ft_str_isin_strs\
 								ft_strchr		\
@@ -60,10 +65,11 @@ SRC =	$(addprefix src/ctype/, $(addsuffix .c,	\
 								ft_strtrim		\
 								ft_substr		\
 											))	\
-		$(addprefix src/utils/, $(addsuffix .c, \
+		$(addsuffix .c, 						\
+		$(addprefix src/utils/, 				\
 								ft_c_isin_str	\
 								ft_linelen		\
-											))
+		))
 OBJS := $(SRC:%.c=%.o)
 
 all: $(NAME)
