@@ -6,7 +6,7 @@
 #    By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/05 13:30:00 by fschnorr          #+#    #+#              #
-#    Updated: 2024/11/25 16:03:43 by fschnorr         ###   ########.fr        #
+#    Updated: 2024/11/26 14:08:00 by fschnorr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -75,8 +75,10 @@ OBJS := $(SRC:%.c=%.o)
 all: $(NAME)
 
 $(NAME): $(OBJS)
+	@echo -n "run ar for libft..."
 	@ar rcs $(NAME) $(OBJS)
-	@echo "ran ar for libft"
+	@echo "done"
+	
 
 %.o: %.c
 	@cc -Wextra -Wall -Werror -Iincludes -c $< -o $@
@@ -85,7 +87,8 @@ clean:
 	@rm -f $(OBJS)
 	
 fclean: clean
+	@echo -n "run fclean for libft..."
 	@rm -f $(NAME)
-	@echo "ran fclean for libft"
+	@echo "done"
 
 re: fclean all
