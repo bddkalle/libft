@@ -6,21 +6,25 @@
 #    By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/05 13:30:00 by fschnorr          #+#    #+#              #
-#    Updated: 2025/01/20 12:07:50 by fschnorr         ###   ########.fr        #
+#    Updated: 2025/01/20 12:54:00 by fschnorr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
-SRC =	$(addsuffix .c,							\
-		$(addprefix src/ctype/, 				\
-		                		ft_isalnum   	\
-                            	ft_isalpha   	\
-								ft_isascii   	\
-								ft_isdigit   	\
-								ft_isprint   	\
-								ft_tolower   	\
-								ft_toupper   	\
-        ))										\
+SRC =	$(addsuffix .c,								\
+		$(addprefix src/ctype/, 					\
+		                		ft_isalnum   		\
+                            	ft_isalpha   		\
+								ft_isascii   		\
+								ft_isdigit   		\
+								ft_isprint   		\
+								ft_tolower   		\
+								ft_toupper   		\
+        ))											\
+		$(addsuffix .c,								\
+		$(addprefix src/get_next_line/, 			\
+								get_next_line		\
+		))											\
     	$(addsuffix .c,							\
 		$(addprefix src/memory/, 				\
 								ft_bzero    	\
