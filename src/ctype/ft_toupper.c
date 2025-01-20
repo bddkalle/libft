@@ -6,13 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/08 16:09:49 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 16:30:58 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 12:58:09 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-/*#include <stdio.h>
-#include <ctype.h>*/
 
 int	ft_toupper(int c)
 {

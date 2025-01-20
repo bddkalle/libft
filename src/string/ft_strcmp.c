@@ -6,13 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/23 14:24:34 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 16:27:26 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 13:03:47 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-#include <stdio.h>
-#include <string.h>
 
 int	ft_strcmp(const char *s1, const char *s2)
 {

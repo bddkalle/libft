@@ -6,12 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/23 15:09:03 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 16:27:15 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 13:03:38 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-#include <stdio.h>
 
 int	ft_str_isin_strs(char *needle, char **needle_box)
 {

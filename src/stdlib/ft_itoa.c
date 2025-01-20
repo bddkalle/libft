@@ -6,13 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/14 10:44:29 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 16:29:04 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 13:03:21 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 char	*ft_itoa(int n)
 {

@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/04 14:16:23 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 12:50:27 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 13:00:52 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 #  define BUFFER_SIZE 42
 # endif
 # include <stdlib.h>
+# include <stdarg.h>
 # include <unistd.h>
 
 typedef unsigned long	t_size;

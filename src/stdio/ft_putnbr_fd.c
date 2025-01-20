@@ -6,13 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/14 14:09:55 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 16:29:21 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 13:01:58 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-#include <unistd.h>
-#include <limits.h>
 
 int	ft_putnbr_fd(int n, int fd)
 {

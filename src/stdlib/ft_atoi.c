@@ -6,13 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 23:13:54 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 16:28:48 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 13:02:58 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 static int	ft_isspace(int c)
 {

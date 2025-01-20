@@ -6,12 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 15:43:41 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 16:29:31 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 13:02:09 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-#include <unistd.h>
 
 static int	helperft_putptr(unsigned long long num, int fd)
 {

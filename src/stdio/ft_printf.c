@@ -6,14 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/29 10:00:24 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 12:06:39 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 13:01:21 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-#include <stdio.h>
-#include <stdarg.h>
-#include <unistd.h>
 
 static int	ft_puthex_fd(unsigned int nbr, int fd, const char format)
 {

@@ -6,13 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/29 13:17:40 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 16:28:59 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 13:03:16 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 int	ft_int_len(long nbr)
 {

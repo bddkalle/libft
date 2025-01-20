@@ -6,13 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/13 10:18:11 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 16:28:55 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 13:03:12 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 void	*ft_calloc(t_size count, t_size size)
 {

@@ -6,13 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/08 15:58:02 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 16:29:50 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 12:58:30 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-/*#include <stdio.h>
-#include <string.h>*/
 
 void	ft_bzero(void *s, t_size n)
 {

@@ -6,13 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/13 14:58:14 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 16:28:23 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 13:05:02 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 static int	to_trim(char const *set, char c)
 {

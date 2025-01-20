@@ -6,13 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/12 14:19:53 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 16:30:09 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 12:59:05 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-#include <stdio.h>
-#include <string.h>
 
 void	*ft_memmove(void *dest, const void *src, t_size n)
 {

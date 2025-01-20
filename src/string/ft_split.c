@@ -6,13 +6,11 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 11:22:56 by fschnorr          #+#    #+#             */
-/*   Updated: 2024/11/21 16:27:10 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 13:03:34 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 static void	*ft_free(char **strs, int count)
 {
