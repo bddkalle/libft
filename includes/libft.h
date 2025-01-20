@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/04 14:16:23 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:00:52 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/01/20 14:10:35 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,5 +63,6 @@ int		ft_int_len(long nbr);
 int		ft_putptr_fd(void *ptr, int fd);
 long	ft_atol(const char *str);
 t_size	ft_linelen(const char *s);
+char	*get_next_line(int fd);
 
 #endif
