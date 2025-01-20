@@ -6,7 +6,7 @@
 #    By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/05 13:30:00 by fschnorr          #+#    #+#              #
-#    Updated: 2024/11/26 14:08:00 by fschnorr         ###   ########.fr        #
+#    Updated: 2025/01/20 12:07:50 by fschnorr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,6 +32,7 @@ SRC =	$(addsuffix .c,							\
 		))										\
 		$(addsuffix .c,							\
 		$(addprefix src/stdio/, 				\
+								ft_printf		\
 								ft_putchar_fd	\
 								ft_putendl_fd	\
 								ft_putnbr_fd	\
