@@ -6,7 +6,7 @@
 #    By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/05 13:30:00 by fschnorr          #+#    #+#              #
-#    Updated: 2025/01/20 12:54:00 by fschnorr         ###   ########.fr        #
+#    Updated: 2025/03/06 12:18:30 by fschnorr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -75,7 +75,10 @@ SRC =	$(addsuffix .c,								\
 								ft_c_isin_str	\
 								ft_linelen		\
 		))
-OBJS := $(SRC:%.c=%.o)
+OBJS_DIR = obj
+OBJS := $(addprefix $(OBJS_DIR)/, $(notdir $(SRC:.c=.o)))
+
+vpath %.c src/ctype src/get_next_line src/memory src/stdio src/stdlib src/string src/utils
 
 all: $(NAME)
 
@@ -84,12 +87,14 @@ $(NAME): $(OBJS)
 	@ar rcs $(NAME) $(OBJS)
 	@echo "done"
 	
+$(OBJS_DIR):
+	@mkdir -p $(OBJS_DIR)
 
-%.o: %.c
+$(OBJS_DIR)/%.o: %.c | $(OBJS_DIR)
 	@cc -Wextra -Wall -Werror -Iincludes -c $< -o $@
 	
 clean:
-	@rm -f $(OBJS)
+	@rm -rf $(OBJS_DIR)
 	
 fclean: clean
 	@echo -n "run fclean for libft..."
