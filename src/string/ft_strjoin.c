@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/13 14:05:35 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:04:16 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:08:18 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,17 +39,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	strjoin[i] = '\0';
 	return (strjoin);
 }
-
-/*int	main(void)
-{
-	char const *s1 = NULL;
-	char const s2[] = " World!";
-	char	*s_joined;
-
-	s_joined = ft_strjoin(s1, s2);
-	if (!s_joined)
-		printf("Allocation failed!\n");
-	printf("Return = %s\n", s_joined);
-	free(s_joined);
-	return (0);
-}*/

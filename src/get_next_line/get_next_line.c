@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/17 14:44:25 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 12:52:29 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:03:26 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,30 +84,3 @@ char	*get_next_line(int fd)
 	stash = _set_line(line);
 	return (line);
 }
-
-/*int	main(void)
-{
-	int		fd;
-	char	*line;
-
-	fd = open("test.txt", O_RDWR);
-	if (fd < 0)
-	{
-		perror("Error opening file");
-		return (1);
-	}
-	line = get_next_line(fd);
-	while (line)
-	{
-		printf("%s", line);
-		fflush(stdout);
-		free(line);
-		line = NULL;
-		line = get_next_line(fd);
-	}
-	printf("%s", line);
-	fflush(stdout);
-	free(line);
-	close(fd);
-	return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 14:22:12 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:04:25 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:08:28 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,3 @@ t_size	ft_strlcpy(char *dst, const char *src, t_size dstsize)
 	dst[j] = '\0';
 	return (src_len);
 }
-
-/*int	main(void)
-{
-	char	dst2[20];
-	const char src[] = "Hello World!";
-
-		ft_strlcpy(dst2, src, 13);
-	printf("dst2 = %s", dst2);
-	return (0);
-}*/

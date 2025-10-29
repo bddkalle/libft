@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/29 10:00:24 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:01:21 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:04:20 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,10 +101,3 @@ int	ft_printf(const char *format, ...)
 	va_end(args);
 	return (output_ct);
 }
-
-/* int	main(void)
-{
-	printf("\n%d\n", printf(" %p %p ", NULL, NULL));
-	printf("\n%d\n", ft_printf(" %p %p ", NULL, NULL));
-	return (0);
-} */

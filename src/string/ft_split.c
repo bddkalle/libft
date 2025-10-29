@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 11:22:56 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:03:34 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:05:52 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,26 +99,3 @@ char	**ft_split(const char *s, char c)
 	wrd_arr[j] = 0;
 	return (wrd_arr);
 }
-
-/*int	main(void)
-{
-	char const s[] = "Hello World!,Hallo Welt,aloha";
-	char	c;
-	char	**arr;
-	int		i;
-
-	i = 0;
-	c = ',';
-	arr = ft_split(s, c);
-	if (arr)
-	{
-		while (arr[i] != NULL)
-		{
-			printf("%s\n", arr[i]);
-			free(arr[i]);
-			i++;
-		}
-		free(arr);
-	}
-	return (0);
-}*/

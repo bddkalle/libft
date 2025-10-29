@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 13:39:59 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:04:58 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:08:55 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,21 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s);
 	return (tmp);
 }
-
-/*int	main(void)
-{
-	const char s[] = "Hello World!";
-	char *result1 = strrchr(s, 'z');
-    char *result2 = ft_strrchr(s, 'z');
-
-	if (result1 != NULL)
-        printf("Return of strrchr = %s\n", result1);
-	else
-        printf("Return of strrchr = NULL\n");
-
-	if (result2 != NULL)
-        printf("Return of ft_strrchr = %s\n", result2);
-	else
-        printf("Return of ft_strrchr = NULL\n");
-	return (0);
-}*/

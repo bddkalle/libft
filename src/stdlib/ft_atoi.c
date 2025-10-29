@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 23:13:54 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:02:58 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:04:59 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,12 +46,3 @@ int	ft_atoi(const char *str)
 	result = result * sign_trigger;
 	return ((int)result);
 }
-
-/*int	main(void)
-{
-	const char str [] = "+42";
-
-	printf("Return of atoi = %d\n", atoi(str));
-	printf("Return of ft_atoi = %d\n", ft_atoi(str));
-	return (0);
-}*/

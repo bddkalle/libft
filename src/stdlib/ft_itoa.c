@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/14 10:44:29 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:03:21 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:05:44 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,15 +39,3 @@ char	*ft_itoa(int n)
 	str[len] = '\0';
 	return (str);
 }
-
-/*int	main(void)
-{
-	int		n;
-	char	*str;
-
-	n = 0;
-	str = ft_itoa(n);
-	printf("Return of ft_itoa = %s\n", str);
-	free(str);
-	return (0);
-}*/

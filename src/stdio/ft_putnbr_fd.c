@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/14 14:09:55 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:01:58 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:04:31 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,3 @@ int	ft_putnbr_fd(int n, int fd)
 	}
 	return (count);
 }
-
-/*int	main(void)
-{
-	ft_putnbr_fd(12345, 1);
-	return (0);
-}*/

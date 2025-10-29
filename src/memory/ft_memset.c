@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/08 14:04:30 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 12:59:08 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:04:13 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,28 +26,3 @@ void	*ft_memset(void *s, int c, t_size n)
 	}
 	return (s);
 }
-/*
-int	main(void)
-{
-	char	s[10];
-	int	i;
-
-	memset(s, 'b', sizeof(char) * 5);
-	memset(s + 5, 'c', sizeof(char) * 5);
-	i = 0;
-	while (i < 10)
-	{
-		printf("%c", s[i]);
-		i++;
-	}
-	printf("\n");
-	ft_memset(s, 'd', sizeof(char) * 9);
-	i = 0;
-	while (i < 10)
-	{
-		printf("%c", s[i]);
-		i++;
-	}
-	printf("\n");
-        return (0);
-}*/

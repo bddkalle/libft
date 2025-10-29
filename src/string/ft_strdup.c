@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/13 11:12:58 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:04:06 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:08:01 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,19 +31,3 @@ char	*ft_strdup(const char *s1)
 	tmp[i] = '\0';
 	return ((char *)tmp);
 }
-
-/*int	main(void)
-{
-	const char s1[] = "Hello World!";
-	char	*s2;
-	char	*s3;
-
-	s2 = strdup(s1);
-	printf("Return of strdup = %s\n", s2);
-	free(s2);
-
-	s3 = ft_strdup(s1);
-	printf("Return of ft_strdup = %s\n", s3);
-	free(s3);
-	return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 12:32:54 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 12:58:02 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:03:05 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,13 +18,3 @@ int	ft_tolower(int c)
 		return (c + 32);
 	return (c);
 }
-
-/*int	main(void)
-{
-	char	c;
-
-	c = 'A';
-	printf("Result of toupper = %c\n", tolower(c));
-	printf("Result of ft_toupper = %c\n", ft_tolower(c));
-	return (0);
-}*/

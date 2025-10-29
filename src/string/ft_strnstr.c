@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 13:39:59 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:04:54 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:08:49 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,17 +33,3 @@ char	*ft_strnstr(const char *big, const char *little, t_size len)
 	}
 	return (NULL);
 }
-
-/*int	main(void)
-{
-	const char big[] = "Hello World!";
-	const char little[] = "";
-	
-    char *result2 = ft_strnstr(big, little, 12);
-
-	if (result2 != NULL)
-        printf("Return of ft_strnstr = %s\n", result2);
-	else
-        printf("Return of ft_strnstr = NULL\n");
-	return (0);
-}*/

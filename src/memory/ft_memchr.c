@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 13:39:59 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 12:58:36 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:03:43 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,24 +26,3 @@ void	*ft_memchr(const void *s, int c, t_size n)
 	}
 	return (NULL);
 }
-
-/*int	main(void)
-{
-	const char test_string[] = "Hello World!";
-	int search_char = 'z';
-	t_size n = strlen(test_string);
-
-	printf("memchr result: %p\n", memchr(test_string, search_char, n));
-    printf("ft_memchr result: %p\n", ft_memchr(test_string, search_char, n));
-
-	if (result1 != NULL)
-        printf("Return of memchr = %s\n", result1);
-	else
-        printf("Return of strchr = NULL\n");
-
-	if (result2 != NULL)
-        printf("Return of ft_strchr = %s\n", result2);
-	else
-        printf("Return of ft_strchr = NULL\n");
-	return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/14 12:21:00 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:04:44 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:08:39 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,14 +29,3 @@ char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 	str[i] = 0;
 	return (str);
 }
-
-/*int	main(void)
-{
-	const char s[] = "Hello World!";
-	char	*result;
-
-	result = ft_strmapi(s, )
-
-	
-	return (0);
-}*/

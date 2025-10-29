@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/23 15:09:03 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:03:38 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:05:58 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,3 @@ int	ft_str_isin_strs(char *needle, char **needle_box)
 	}
 	return (0);
 }
-
-/*int	main(void)
-{
-	char *strs[] = {"Hello Word", "Hallo Welt", "Hello World!", NULL};
-	char str_tofind[] = "Hello Word";
-
-	printf("Return = %d\n", ft_str_isin_strs(str_tofind, strs));
-	return (0);
-}*/

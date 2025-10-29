@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/03 14:56:28 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 12:57:54 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:03:00 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,19 +18,3 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
-
-/*int	main(void)
-{
-	char	c;
-
-	c = 'Q';
-	printf("Result when %c is passed: %d", c, isprint(c));
-	printf("\nOwn result for %c is: %d", c, ft_isprint(c));
-	c = '\n';
-	printf("\nResult when %c is passed: %d", c, isprint(c));
-	printf("\nOwn result for %c is: %d", c, ft_isprint(c));
-	c = ' ';
-	printf("\nResult when %c is passed: %d", c, isprint(c));
-	printf("\nOwn result for %c is: %d", c, ft_isprint(c));
-	return (0);
-}*/

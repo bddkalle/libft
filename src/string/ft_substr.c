@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/13 12:23:08 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:05:08 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:09:07 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,14 +35,3 @@ char	*ft_substr(char const *s, unsigned int start, t_size len)
 	subs[i] = '\0';
 	return (subs);
 }
-
-/*int	main(void)
-{
-	const char s[] = "Hello World!";
-	char	*subs;
-	
-	subs = ft_substr(s, 6, 5);
-	printf("Substring = %s\n", subs);
-	free(subs);
-	return (0);
-}*/

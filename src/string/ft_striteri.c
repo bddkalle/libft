@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/14 12:21:00 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:04:10 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:08:07 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,14 +23,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-
-/*int	main(void)
-{
-	const char s[] = "Hello World!";
-	char	*result;
-
-	result = ft_striteri(s, )
-
-	
-	return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/08 12:07:56 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:04:21 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:08:23 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,13 +33,3 @@ t_size	ft_strlcat(char *dst, const char *src, t_size dstsize)
 	}
 	return (dst_len + src_len);
 }
-
-/*int	main(void)
-{
-    char    dst[] = "HelloHello";
-    char    src[] = " World!";
-
-    ft_strlcat(dst, src, 0);
-    printf("dst = %s\n", dst);
-    return (0);
-}*/

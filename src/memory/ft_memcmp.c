@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 15:39:09 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 12:58:50 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:03:54 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, t_size n)
 		return (0);
 	return (*ptr1 - *ptr2);
 }
-
-/*int	main(void)
-{
-	const char s1[] = "Hello World";
-	const char s2[] = "Hello World!";
-
-	printf("Return of memcmp = %d\n", memcmp(s1, s2, 12));
-	printf("Return of ft_memcmp = %d\n", ft_memcmp(s1, s2, 12));
-	return (0);
-}*/

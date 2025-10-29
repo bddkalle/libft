@@ -6,7 +6,7 @@
 /*   By: fschnorr <fschnorr@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/13 14:58:14 by fschnorr          #+#    #+#             */
-/*   Updated: 2025/01/20 13:05:02 by fschnorr         ###   ########.fr       */
+/*   Updated: 2025/10/29 15:09:00 by fschnorr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,17 +41,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		j--;
 	return (ft_substr(s1, i, j - (i - 1)));
 }
-
-/*int	main(void)
-{
-	char const s1[] = "ababababaHello World!ababababababbbbaaaa";
-	char const set[] = "ab";
-	char	*s_trimmed;
-
-	s_trimmed = ft_strtrim(s1, set);
-	if (!s_trimmed)
-		printf("Allocation failed!");
-	printf("Trimmed string = %s\n", s_trimmed);
-	free(s_trimmed);	
-	return (0);
-}*/
